@@ -34,8 +34,18 @@
 1. При проведении обеих задач по статусам используйте kanban. 
 1. Верните задачи в статус Open.
 1. Перейдите в Scrum, запланируйте новый спринт, состоящий из задач эпика и одного бага, стартуйте спринт, проведите задачи до состояния Closed. Закройте спринт.
-2. Если всё отработалось в рамках ожидания — выгрузите схемы workflow для импорта в XML. Файлы с workflow и скриншоты workflow приложите к решению задания.
-
+2. Если всё отработалось в рамках ожидания — выгрузите схемы workflow для импорта в XML. Файлы с workflow и скриншоты workflow приложите к решению задания.  
+Ответы:  
+Скриншот провел все таски до состояния готово в scrum:  
+![](https://github.com/Svalker1989/CICD/blob/master/09-ci-01-intro/1.PNG)  
+Скриншот bug workflow:  
+![](https://github.com/Svalker1989/CICD/blob/master/09-ci-01-intro/2.PNG)  
+Скриншот other tasks workflow:  
+![](https://github.com/Svalker1989/CICD/blob/master/09-ci-01-intro/3.PNG)  
+Файл с bug workflow:  
+[](https://github.com/Svalker1989/CICD/blob/master/09-ci-01-intro/Bug.xml)
+Файл с bug workflow:  
+[](https://github.com/Svalker1989/CICD/blob/master/09-ci-01-intro/Other%20tasks.xml)  
 ---
 
 ### Как оформить решение задания
