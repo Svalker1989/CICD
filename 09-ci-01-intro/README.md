@@ -43,9 +43,9 @@
 Скриншот other tasks workflow:  
 ![](https://github.com/Svalker1989/CICD/blob/master/09-ci-01-intro/3.PNG)  
 Файл с bug workflow:  
-[](https://github.com/Svalker1989/CICD/blob/master/09-ci-01-intro/Bug.xml)
+[Bug.xml](https://github.com/Svalker1989/CICD/blob/master/09-ci-01-intro/Bug.xml)
 Файл с bug workflow:  
-[](https://github.com/Svalker1989/CICD/blob/master/09-ci-01-intro/Other%20tasks.xml)  
+[Other tasks.xml](https://github.com/Svalker1989/CICD/blob/master/09-ci-01-intro/Other%20tasks.xml)  
 ---
 
 ### Как оформить решение задания
