@@ -10,22 +10,22 @@
 ## Основная часть
 
 1. Сделать Freestyle Job, который будет запускать `molecule test` из любого вашего репозитория с ролью.
-![1]()  
+![1](https://github.com/Svalker1989/CICD/blob/master/09-ci-04-jenkins/1.PNG)  
 2. Сделать Declarative Pipeline Job, который будет запускать `molecule test` из любого вашего репозитория с ролью.
-![2]()  
+![2](https://github.com/Svalker1989/CICD/blob/master/09-ci-04-jenkins/2.PNG)  
 3. Перенести Declarative Pipeline в репозиторий в файл `Jenkinsfile`.
-![3]()  
+![3](https://github.com/Svalker1989/CICD/blob/master/09-ci-04-jenkins/3.PNG)  
 Скрипт пайплайна:  
-![declarative]()  
+![declarative](https://github.com/Svalker1989/CICD/blob/master/09-ci-04-jenkins/pipeline/declarative)  
 4. Создать Multibranch Pipeline на запуск `Jenkinsfile` из репозитория.
 5. Создать Scripted Pipeline, наполнить его скриптом из [pipeline](./pipeline).
 6. Внести необходимые изменения, чтобы Pipeline запускал `ansible-playbook` без флагов `--check --diff`, если не установлен параметр при запуске джобы (prod_run = True). По умолчанию параметр имеет значение False и запускает прогон с флагами `--check --diff`.
 Создан параметр:  
-![4]()  
+![4](https://github.com/Svalker1989/CICD/blob/master/09-ci-04-jenkins/4.PNG)  
 Пайплайн успешно собран:  
-![5]()  
+![5](https://github.com/Svalker1989/CICD/blob/master/09-ci-04-jenkins/5.PNG)  
 Скрипт пайплайна:  
-[scripted]()  
+[scripted](https://github.com/Svalker1989/CICD/blob/master/09-ci-04-jenkins/pipeline/scripted)  
 7. Проверить работоспособность, исправить ошибки, исправленный Pipeline вложить в репозиторий в файл `ScriptedJenkinsfile`.
 8. Отправить ссылку на репозиторий с ролью и Declarative Pipeline и Scripted Pipeline.
 9. Сопроводите процесс настройки скриншотами для каждого пункта задания!!
