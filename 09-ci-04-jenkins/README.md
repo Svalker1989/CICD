@@ -20,17 +20,20 @@
 Скрипт пайплайна:  
 [declarative](https://github.com/Svalker1989/CICD/blob/master/09-ci-04-jenkins/pipeline/declarative)  
 5. Создать Multibranch Pipeline на запуск `Jenkinsfile` из репозитория.
-6. Создать Scripted Pipeline, наполнить его скриптом из [pipeline](./pipeline).
-7. Внести необходимые изменения, чтобы Pipeline запускал `ansible-playbook` без флагов `--check --diff`, если не установлен параметр при запуске джобы (prod_run = True). По умолчанию параметр имеет значение False и запускает прогон с флагами `--check --diff`.
+Мультибранч:
+![](https://github.com/Svalker1989/CICD/blob/master/09-ci-04-jenkins/4_1.PNG)  
+
+7. Создать Scripted Pipeline, наполнить его скриптом из [pipeline](./pipeline).
+8. Внести необходимые изменения, чтобы Pipeline запускал `ansible-playbook` без флагов `--check --diff`, если не установлен параметр при запуске джобы (prod_run = True). По умолчанию параметр имеет значение False и запускает прогон с флагами `--check --diff`.
 Создан параметр:  
 ![4](https://github.com/Svalker1989/CICD/blob/master/09-ci-04-jenkins/4.PNG)  
 Пайплайн успешно собран:  
 ![5](https://github.com/Svalker1989/CICD/blob/master/09-ci-04-jenkins/5.PNG)  
 Скрипт пайплайна:  
 [scripted](https://github.com/Svalker1989/CICD/blob/master/09-ci-04-jenkins/pipeline/scripted)  
-8. Проверить работоспособность, исправить ошибки, исправленный Pipeline вложить в репозиторий в файл `ScriptedJenkinsfile`.
-9. Отправить ссылку на репозиторий с ролью и Declarative Pipeline и Scripted Pipeline.
-10. Сопроводите процесс настройки скриншотами для каждого пункта задания!!
+9. Проверить работоспособность, исправить ошибки, исправленный Pipeline вложить в репозиторий в файл `ScriptedJenkinsfile`.
+10. Отправить ссылку на репозиторий с ролью и Declarative Pipeline и Scripted Pipeline.
+11. Сопроводите процесс настройки скриншотами для каждого пункта задания!!
 
 ## Необязательная часть
 
