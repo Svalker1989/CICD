@@ -1,0 +1,17 @@
+pipeline {
+    agent {
+        label 'ansible'
+    }
+    stages {
+        stage('First') {
+          steps {
+            sh 'pip3 install --user molecule molecule_docker'          
+          }
+        }
+        stage('Second') {
+          steps {  
+            sh '/usr/local/bin/molecule create -s default'
+          }
+        }
+    }
+}
