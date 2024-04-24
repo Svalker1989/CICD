@@ -10,9 +10,9 @@
 ## Основная часть
 
 1. Сделать Freestyle Job, который будет запускать `molecule test` из любого вашего репозитория с ролью.
-![](https://github.com/Svalker1989/CICD/blob/master/09-ci-04-jenkins/1.PNG)
+![](https://github.com/Svalker1989/CICD/blob/master/09-ci-04-jenkins/1.PNG)  
 Шаги сборки:
-![](https://github.com/Svalker1989/CICD/blob/master/09-ci-04-jenkins/1_1.PNG)
+![](https://github.com/Svalker1989/CICD/blob/master/09-ci-04-jenkins/1_1.PNG)  
 3. Сделать Declarative Pipeline Job, который будет запускать `molecule test` из любого вашего репозитория с ролью.
 ![](https://github.com/Svalker1989/CICD/blob/master/09-ci-04-jenkins/2.PNG)  
 4. Перенести Declarative Pipeline в репозиторий в файл `Jenkinsfile`.
